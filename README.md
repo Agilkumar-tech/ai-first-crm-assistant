@@ -15,3 +15,22 @@ D:\Python\
 │   ├── main.py        # Core application entry point
 │   └── .venv/         # Python virtual environment
 └── crm-frontend/       # React application with Redux Toolkit state management
+
+Complete Installation & How to Run Guide
+**To run the entire system locally, configure and start both the FastAPI backend and the React frontend by opening two separate terminal windows in your project directory (D:\Python).
+
+**Prerequisites
+Ensure you have the following installed on your machine:
+ Python 3.10 or higher  Node.js (v18+) and npm  A valid Groq API Key
+
+Terminal 1: Backend Setup & Execution (FastAPI)
+     *Navigate to the backend directory:
+          -> cd crm-backend
+          -> $env:GROQ_API_KEY="your_actual_groq_api_key_here"
+python main.py
+
+Terminal 2: Frontend Setup & Execution (React)
+      **Open a new terminal window and navigate to the frontend directory:
+              ->cd crm-frontend
+              -> npm install
+              ->npm run dev
